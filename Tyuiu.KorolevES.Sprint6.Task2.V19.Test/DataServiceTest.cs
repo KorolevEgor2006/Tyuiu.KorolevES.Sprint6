@@ -12,7 +12,7 @@ namespace Tyuiu.KorolevES.Sprint6.Task2.V19.Test
             int start = -1, end = 1;
             double[] res = new double[ds.GetMassFunction(start, end).Length];
             res = ds.GetMassFunction(start, end);
-            CollectionAssert.AreEqual(wait, res);
+            CollectionAssert.AreEqual(wait, res); 
         }
     }
 }

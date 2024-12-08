@@ -20,7 +20,7 @@ namespace Tyuiu.KorolevES.Sprint6.Task2.V19.Lib
                 }
                 d++;
             }
-            return res;
+            return res; 
         }
     }
 }
