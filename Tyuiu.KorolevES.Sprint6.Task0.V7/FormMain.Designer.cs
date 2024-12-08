@@ -38,6 +38,7 @@
             labelResult_KES = new Label();
             textBoxResult_KES = new TextBox();
             buttonResult_KES = new Button();
+            buttonHelp_KES = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBoxFormula_KES).BeginInit();
             groupBoxTask_KES.SuspendLayout();
             groupBoxEnter_KES.SuspendLayout();
@@ -143,12 +144,25 @@
             buttonResult_KES.UseVisualStyleBackColor = true;
             buttonResult_KES.Click += buttonResult_Click;
             // 
+            // buttonHelp_KES
+            // 
+            buttonHelp_KES.BackColor = SystemColors.Control;
+            buttonHelp_KES.FlatStyle = FlatStyle.Flat;
+            buttonHelp_KES.Location = new Point(304, 405);
+            buttonHelp_KES.Name = "buttonHelp_KES";
+            buttonHelp_KES.Size = new Size(37, 37);
+            buttonHelp_KES.TabIndex = 6;
+            buttonHelp_KES.Text = "?";
+            buttonHelp_KES.UseVisualStyleBackColor = false;
+            buttonHelp_KES.Click += buttonHelp_Click;
+            // 
             // FormMain
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoValidate = AutoValidate.EnableAllowFocusChange;
             ClientSize = new Size(490, 463);
+            Controls.Add(buttonHelp_KES);
             Controls.Add(buttonResult_KES);
             Controls.Add(groupBoxResult_KES);
             Controls.Add(groupBoxEnter_KES);
@@ -178,5 +192,6 @@
         private TextBox textBoxResult_KES;
         private Label labelResult_KES;
         private Button buttonResult_KES;
+        private Button buttonHelp_KES;
     }
 }
