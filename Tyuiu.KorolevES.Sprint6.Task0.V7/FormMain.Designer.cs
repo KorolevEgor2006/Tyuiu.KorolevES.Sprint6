@@ -167,8 +167,10 @@
             Controls.Add(groupBoxResult_KES);
             Controls.Add(groupBoxEnter_KES);
             Controls.Add(groupBoxTask_KES);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "FormMain";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Спринт 6 | Таск 0 | Вариант 7| Королев Е. С.";
             ((System.ComponentModel.ISupportInitialize)pictureBoxFormula_KES).EndInit();
             groupBoxTask_KES.ResumeLayout(false);
