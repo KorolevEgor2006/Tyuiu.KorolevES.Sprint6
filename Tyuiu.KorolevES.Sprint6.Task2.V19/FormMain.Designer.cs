@@ -234,6 +234,7 @@ namespace Tyuiu.KorolevES.Sprint6.Task2.V19
             Controls.Add(buttonResult_KES);
             Controls.Add(groupBoxEnter_KES);
             Controls.Add(groupBoxTask_KES);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
