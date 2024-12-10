@@ -113,6 +113,7 @@
             Controls.Add(groupBoxResult_KES);
             Controls.Add(buttonResult_KES);
             Controls.Add(groupBoxTask_KES);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
