@@ -273,7 +273,6 @@
             Controls.Add(splitterLeftAndFill_KES);
             Controls.Add(panelLeft_KES);
             Controls.Add(panelUp_KES);
-            FormBorderStyle = FormBorderStyle.SizableToolWindow;
             MinimumSize = new Size(1250, 655);
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
