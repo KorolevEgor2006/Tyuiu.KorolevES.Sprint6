@@ -190,8 +190,10 @@
             Controls.Add(groupBoxResult_KES);
             Controls.Add(groupBoxEnter_KES);
             Controls.Add(groupBoxTask_KES);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
             MaximizeBox = false;
             Name = "FormMain";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Спринт 6 |Таск 1 |Вариант 2 |Королев Е.С.";
             groupBoxTask_KES.ResumeLayout(false);
             groupBoxTask_KES.PerformLayout();
