@@ -23,7 +23,7 @@ namespace Tyuiu.KorolevES.Sprint6.Task4.V3.Lib
                 count++;
             }
             return result;
-            
+             
         }
     }
 }
